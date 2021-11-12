@@ -1,0 +1,34 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+ <div style="text-align: center;">
+  <h1><em>Calculator using Angular.js</em></h1>
+  <br>
+
+  <input type="text" [(ngModel)]="num1">
+  <input type="text" [(ngModel)]="num2">
+
+  <br><br>
+  <button (click)="add()">Add</button>
+  <em>Result = {{num3}}</em><br><br>
+  <button (click)="sub()">Sub</button>
+  <em>Result = {{num4}}</em><br><br>
+  <button (click)="mul()">Mul</button>
+  <em>Result = {{num5}}</em><br><br>
+  <button (click)="div()">Div</button>
+  <em>Result = {{num6}}</em><br><br>
+  
+  <em>Factorial of {{num1}} is = {{num1 | factorial}}</em><br><br>
+  <em>Factorial of {{num2}} is = {{num2 | factorial}}</em><br><br>
+
+  
+  
+</div>
+
+ 
